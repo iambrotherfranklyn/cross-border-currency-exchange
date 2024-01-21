@@ -1,0 +1,88 @@
+project-root/
+|-- public/
+|-- src/
+|   |-- modules/
+|   |   |-- user/
+|   |   |   |-- components/
+|   |   |   |   |-- UserProfile/
+|   |   |   |   |   |-- UserProfile.tsx
+|   |   |   |   |   |-- UserProfile.css
+|   |   |   |
+|   |   |   |-- pages/
+|   |   |   |   |-- dashboard/
+|   |   |   |   |   |-- index.tsx
+|   |   |   |   |   |-- DashboardLayout/
+|   |   |   |   |   |   |-- DashboardLayout.tsx
+|   |   |   |   |   |   |-- DashboardLayout.css
+|   |   |   |
+|   |   |   |-- services/
+|   |   |   |   |-- userService.ts
+|   |   |   |   |-- transactionService.ts
+|   |   |
+|   |   |-- payment/
+|   |   |   |-- components/
+|   |   |   |   |-- PaymentForm/
+|   |   |   |   |   |-- PaymentForm.tsx
+|   |   |   |   |   |-- PaymentForm.css
+|   |   |   |
+|   |   |   |-- pages/
+|   |   |   |   |-- sendMoney/
+|   |   |   |   |   |-- index.tsx
+|   |   |   |   |   |-- SendMoneyLayout/
+|   |   |   |   |   |   |-- SendMoneyLayout.tsx
+|   |   |   |   |   |   |-- SendMoneyLayout.css
+|   |   |   |
+|   |   |   |-- services/
+|   |   |   |   |-- paymentService.ts
+|   |
+|   |-- components/
+|   |   |-- common/
+|   |   |   |-- Button/
+|   |   |   |   |-- Button.tsx
+|   |   |   |   |-- Button.css
+|   |   |   |
+|   |   |   |-- Input/
+|   |   |       |-- Input.tsx
+|   |   |       |-- Input.css
+|   |   |
+|   |   |-- layout/
+|   |       |-- MainLayout/
+|   |       |   |-- MainLayout.tsx
+|   |       |   |-- MainLayout.css
+|   |
+|   |-- api/
+|   |   |-- user/
+|   |   |   |-- getUserInfo.ts
+|   |   |   |-- updateUserProfile.ts
+|   |   |
+|   |   |-- payment/
+|   |       |-- initiateTransaction.ts
+|   |       |-- verifyTransaction.ts
+|   |
+|   |-- utils/
+|   |   |-- validation/
+|   |       |-- validateUserInput.ts
+|   |
+|   |-- store/
+|   |   |-- user/
+|   |   |   |-- userSlice.ts
+|   |   |   |-- userActions.ts
+|   |   |
+|   |   |-- payment/
+|   |       |-- paymentSlice.ts
+|   |       |-- paymentActions.ts
+|   |
+|   |-- styles/
+|   |   |-- global.css
+|   |   |-- components/
+|   |       |-- Button.css
+|   |       |-- Input.css
+|   |
+|   |-- services/
+|       |-- authService.ts
+|       |-- apiService.ts
+|
+|-- tsconfig.json
+|-- package.json
+|-- next.config.js
+|-- .env
